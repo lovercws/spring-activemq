@@ -1,5 +1,6 @@
 package com.lovecws.spring.activemq;
 
+import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
 
 import com.lovecws.spring.activemq.entity.PhoneNoticeInfo;
@@ -21,5 +22,6 @@ public class Main {
 		}
 
 		applicationContext.close();
+		
 	}
 }
